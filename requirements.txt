@@ -1,0 +1,4 @@
+ping3
+requests
+pydantic
+pydantic_settings

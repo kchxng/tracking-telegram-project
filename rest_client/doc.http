@@ -1,0 +1,9 @@
+@baseURL=https://api.telegram.org
+@bot_token=7212583015:AAHBIauA3hkiDKg9u9YK4JPEQvDBY-BJcDM
+@chat_id=5519725111
+
+### Update Chat ID on Telegram
+GET {{baseURL}}/bot{{bot_token}}/getUpdates
+
+### Send Message to Telegram
+GET {{baseURL}}/bot{{bot_token}}/sendMessage?chat_id={{chat_id}}&text=Alert: Host is not available
